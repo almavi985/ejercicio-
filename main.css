@@ -1,0 +1,124 @@
+{
+    padding:0;
+    margin:0;
+}
+
+header
+{
+background-color: black;
+color: white;
+height: 30px;
+padding-top:15px ;
+padding-bottom:15px;
+padding-right:50px ;
+padding-left: 50px;
+}
+
+header a 
+{
+color: white;
+text-decoration:none;
+}
+
+#logo
+{
+    display: inline-block;
+    width: 40%;
+}
+
+.enlaces ul{
+    position: relative;
+    right:0;
+}
+
+.enlaces ul,.enlaces ul li 
+{
+display: inline;
+padding-right: 15px;
+font-weight: bold;
+font-size: 15px;
+position: relative;
+}
+.enlaces
+{
+    display: inline-block;
+    width: 30%;
+}
+
+.enlaces ul li:hover{
+    color: green;
+}
+
+.enlaces{
+    padding-left:50px ;
+}
+main
+{
+    background-image: ;
+    background-position: center;
+  background-color: blue;
+  height: 500px;
+padding: 100px 300px;
+text-align: center;
+}
+main h1{
+    color: #1ed760;
+    font-size: 80px;
+}
+
+main h4
+{
+    padding: 10px ;
+    color: chartreuse;
+    font-size: 10px;
+}
+main a
+{
+    margin-top:20px ;
+    background-color: chartreuse;
+    padding: 15px 30px;
+    border-radius: 100px;
+    color: darkblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#premium{
+background-color: darkcyan;
+padding-top: 60px;
+padding-bottom: 35px;
+padding-left: 100px;
+
+}
+
+
+#premium h1
+{
+    color: white;
+    font-size: 40px;
+}
+#premium h2
+{
+    color: white;
+    font-size: 20px;
+}
+
+#premium button:active
+{
+    color: tomato;
+  padding: 15px 30px;
+  border-radius: 100px;  
+}
+#premium .negro
+{
+    background-color: black;
+}
+
+#premium .transparente:hover
+{
+    background-color: transparent;
+}
+#premium  p{
+    color: white;
+
+}
